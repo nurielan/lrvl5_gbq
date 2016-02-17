@@ -1,0 +1,93 @@
+//==================Mixin===============
+@mixin box-shadow($top, $left, $blur, $color)
+{
+	box-shadow: $top $left $blur $color;
+	-webkit-box-shadow: $top $left $blur $color;
+	-moz-box-shadow: $top $left $blur $color;
+	-ms-box-shadow: $top $left $blur $color;
+	-o-box-shadow: $top $left $blur $color;
+}
+
+@mixin translateY($var)
+{
+	// -webkit-overflow-scrolling: touch;
+	-webkit-transform: translateY($var);
+	-moz-transform: translateY($var);
+	-ms-transform: translateY($var);
+	-o-transform: translateY($var);
+	transform: translateY($var);
+}
+
+@mixin translateX($var)
+{
+	-webkit-overflow-scrolling: touch;
+	-webkit-transform: translateX($var);
+	-moz-transform: translateX($var);
+	-ms-transform: translateX($var);
+	-o-transform: translateX($var);
+	transform: translateX($var);
+}
+
+@mixin transition($method, $durasi)
+{
+  	-webkit-transition:$method $durasi;
+  	-moz-transition:$method $durasi;
+  	-ms-transition:$method $durasi;
+  	-o-transition:$method $durasi;
+  	transition:$method $durasi;
+}
+
+@mixin animasi($nama)
+{
+  	-webkit-animation: ($nama);
+  	-moz-animation: ($nama);
+  	-ms-animation: ($nama);
+  	-o-animation: ($nama);
+  	animation: ($nama);
+}
+
+@mixin keyframes($nama-animasi)
+{
+	@-webkit-keyframes #{$nama-animasi}
+	{
+		@content;
+	}
+
+	@-moz-keyframes #{$nama-animasi}
+	{
+		@content;
+	}
+
+	@-ms-keyframes #{$nama-animasi}
+	{
+		@content;
+	}
+
+	@-o-keyframes #{$nama-animasi}
+	{
+		@content;
+	}
+
+	@keyframes #{$nama-animasi}
+	{
+		@content;
+	}
+}
+
+@mixin placeholder
+{
+	::-webkit-input-placeholder{@content;}
+	::-moz-placeholder{@content;}
+	:-moz-placeholder{@content;}
+	:-ms-input-placeholder{@content;}
+}
+
+@mixin backgroundmethod($method)
+{
+	background-size: $method;
+	-webkit-background-size: $method;
+	-moz-background-size: $method;
+	-ms-background-size: $method;
+	-o-background-size: $method;
+	background-position: center;
+}

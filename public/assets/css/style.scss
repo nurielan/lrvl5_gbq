@@ -1,0 +1,87 @@
+@import 'part/mixins.scss';
+@import 'part/variable.scss';
+@import 'part/layout.scss';
+
+// ====== General Style ======= //
+body
+{
+	font-family: $raleway;
+	// background-color: $black-color1;
+	background: url('../images/barber.jpg') no-repeat fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+
+.antrian
+{
+	display: inline-block;
+	background-color: $black-color2;
+	text-align: center;
+	margin-top: 35%;
+	margin-bottom: 20px;
+	padding: 20px;
+
+	h1
+	{
+		font-family: $western;
+		color: $gold-color;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 34px;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.nomor-antrian
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.nomor-antrian .nomor
+	{
+		font-size: 180px;
+	}
+
+	.tombol
+	{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.btn-default
+	{
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-transform: uppercase;
+		color: $black-color2;
+		background-color: $gold-color;
+		font-family: $western;
+		border:none;
+		font-size: 26px;
+		border-radius: 0px;
+
+		&:hover,
+		&:active,
+		&:focus
+		{
+			background-color: $gold-color - 50;
+		}
+	}
+}
+
+// ====== @media Query ====== //
+@include respond($tablet)
+{
+	
+}
+
+@include respond($phone)
+{
+	
+}

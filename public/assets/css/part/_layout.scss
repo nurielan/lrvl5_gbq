@@ -1,0 +1,31 @@
+//==================Layout===============
+$desktop: 992px;
+$desktop-max: 991px;
+$tablet :768px;
+$phone : 767px;
+$phone-land : 480px;
+
+@mixin respond($media)
+{
+	@if $media == $desktop
+	{
+		@media screen and (min-width: $desktop)
+		{
+			@content
+		}
+	}
+	@else if $media == $tablet
+	{
+		@media screen and (min-width: $tablet) and (max-width: $desktop-max)
+		{
+			@content
+		}
+	}
+	@else if $media == $phone
+	{
+		@media screen and (max-width: $phone)
+		{
+			@content
+		}
+	}
+}
