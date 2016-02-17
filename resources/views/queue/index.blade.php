@@ -14,9 +14,11 @@
 </head>
 </head>
 <body>
+	@if (!Request::is('ticket'))
 	{!! Form::open(['url' => 'queuecopy']) !!}
 	{!! Form::button('Reset', ['class' => 'btn btn-danger btn-xs', 'name' => 'queue_reset', 'type' => 'submit']) !!}
 	{!! Form::close() !!}
+	@endif
 
 	<div class="container">
 		@yield('content')

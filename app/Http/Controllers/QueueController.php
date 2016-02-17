@@ -21,16 +21,26 @@ class QueueController extends Controller
     }
 
     public function getQueue() {
-        $queue = App\Queue::where('occupied', '=', 1)->orWhere('skipped', '=', 1)->orWhere(function($query) {
-            $query->where('occupied', '=', 0)->where('skipped', '=', 0);
-        })->orderBy('number', 'desc')->first();
+        $queue = App\Queue::all();
 
-        if (count($queue) == 0) {
-            $num['number'] = 0;
+        foreach ($queue as $queues) {
+            if ($queues->occupied == 1 || $queues->skipped == 1) {
+                $queue_os[] = $queues->number;
+                $queuee['os'] = $queue_os;
+            } else {
+                $queue_e[] = $queues->number;
+                $queuee['e'] = $queue_e;
+            }
+        }
 
-            return response()->json($num);
-        } else {
-            return response()->json($queue);
+        if (empty($queuee['e']) && empty($queuee['os'])) {
+            return response()->json(['number' => 1]);
+        } elseif (empty($queuee['e']) && !empty($queuee['os'])) {
+            return response()->json(['number' => end($queuee['os'])]);
+        } elseif (!empty($queuee['e']) && empty($queuee['os'])) {
+            return response()->json(['number' => reset($queuee['e'])]);
+        } elseif (!empty($queuee['e']) && !empty($queuee['os'])) {
+            return response()->json(['number' => reset($queuee['e'])]);
         }
     }
 
