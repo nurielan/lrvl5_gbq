@@ -5,11 +5,11 @@
 		[
 			[
 				"que",
-				"queuecopy"
+				"queuee"
 			],
 			[
 				"qu",
-				"queuecopy"
+				"queuee"
 			],
 			[
 				"da",
@@ -531,7 +531,7 @@
 			"file": "app/Http/Controllers/QueueController.php",
 			"settings":
 			{
-				"buffer_size": 4015,
+				"buffer_size": 4502,
 				"line_ending": "Unix"
 			}
 		},
@@ -584,7 +584,10 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/lrvl5_gbq"
+		"/opt/lampp/htdocs/lrvl5_gbq",
+		"/opt/lampp/htdocs/lrvl5_gbq/resources",
+		"/opt/lampp/htdocs/lrvl5_gbq/resources/views",
+		"/opt/lampp/htdocs/lrvl5_gbq/resources/views/queue"
 	],
 	"file_history":
 	[
@@ -719,7 +722,7 @@
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -733,6 +736,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"win",
+			"count",
 			"occupied",
 			"/images/",
 			"Input::get('title')",
@@ -858,9 +863,7 @@
 			"username",
 			"back.",
 			"admin",
-			"Admin",
-			"AdminController",
-			", ['required']"
+			"Admin"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -868,6 +871,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"empty",
 			"call",
 			"print",
 			"skip",
@@ -994,8 +998,7 @@
 			"BrandProduct",
 			"BrandSize",
 			"brand",
-			"Brand",
-			"register"
+			"Brand"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1031,7 +1034,7 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 169.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1043,15 +1046,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4015,
+						"buffer_size": 4502,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								443,
-								443
+								890,
+								890
 							]
 						],
 						"settings":
@@ -1061,10 +1064,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 284.0,
+						"translation.y": 534.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1086,8 +1089,8 @@
 						"selection":
 						[
 							[
-								906,
-								906
+								9276,
+								9276
 							]
 						],
 						"settings":
@@ -1096,10 +1099,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 229.0,
+						"translation.y": 3557.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1163,7 +1166,7 @@
 		"cols":
 		[
 			0.0,
-			0.670702179177,
+			0.318401937046,
 			1.0
 		],
 		"rows":
@@ -1181,7 +1184,7 @@
 	"project": "lrvl5_gbq.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1211,7 +1214,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
