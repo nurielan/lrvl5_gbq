@@ -584,13 +584,11 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/lrvl5_gbq",
-		"/opt/lampp/htdocs/lrvl5_gbq/resources",
-		"/opt/lampp/htdocs/lrvl5_gbq/resources/views",
-		"/opt/lampp/htdocs/lrvl5_gbq/resources/views/queue"
+		"/opt/lampp/htdocs/lrvl5_gbq"
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/lrvl5_gbq/.gitignore",
 		"/opt/lampp/htdocs/lrvl5_gbq/resources/views/queue/index.blade.php",
 		"/Applications/MAMP/htdocs/lrvl5_gbq/.env",
 		"/Applications/MAMP/htdocs/lrvl5_gbq/config/app.php",
@@ -717,8 +715,7 @@
 		"/opt/lampp/htdocs/lrvl_internal_commerce/app/views/back/brandsizeimage/index.blade.php",
 		"/opt/lampp/htdocs/lrvl_internal_commerce/app/views/back/brandsizeimage/create.blade.php",
 		"/opt/lampp/htdocs/lrvl_internal_commerce/app/models/BrandSize.php",
-		"/opt/lampp/htdocs/lrvl_internal_commerce/app/models/BrandProduct.php",
-		"/opt/lampp/htdocs/lrvl_internal_commerce/app/models/BrandProductImage.php"
+		"/opt/lampp/htdocs/lrvl_internal_commerce/app/models/BrandProduct.php"
 	],
 	"find":
 	{
@@ -1025,8 +1022,8 @@
 						"selection":
 						[
 							[
-								389,
-								389
+								225,
+								225
 							]
 						],
 						"settings":
@@ -1034,10 +1031,10 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 169.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1053,8 +1050,8 @@
 						"selection":
 						[
 							[
-								890,
-								890
+								177,
+								177
 							]
 						],
 						"settings":
@@ -1064,10 +1061,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 534.0,
+						"translation.y": 14.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1099,10 +1096,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3557.0,
+						"translation.y": 69714.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1166,7 +1163,7 @@
 		"cols":
 		[
 			0.0,
-			0.318401937046,
+			0.742130750605,
 			1.0
 		],
 		"rows":
@@ -1214,7 +1211,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
